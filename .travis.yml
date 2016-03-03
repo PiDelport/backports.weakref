@@ -1,0 +1,32 @@
+language: python
+cache: pip
+
+matrix:
+  include:
+    - { python: '2.7', env: TOXENV=py27 }
+    - { python: '3.4', env: TOXENV=py34 }
+    - { python: '3.5', env: TOXENV=py35 }
+    - { python: 'pypy', env: TOXENV=pypy }
+    - { python: 'pypy3', env: TOXENV=pypy3 }
+
+    # Limit coverage reporting only to the latest Python 2 and 3 versions.
+    - { python: '2.7', env: TOXENV=py27-codecov }
+    - { python: '3.5', env: TOXENV=py35-codecov }
+
+  allow_failures:
+    # PyPy3 on Travis seems to be broken, as of 2016-02.
+    #
+    # See: https://github.com/travis-ci/travis-ci/issues/4306
+    #
+    - python: 'pypy3'
+
+# Avoid overriding the default install step,
+# so that automatic pip caching works.
+#
+# See: https://github.com/travis-ci/travis-ci/issues/3239
+#
+before_script:
+  - pip install tox
+
+script:
+  - tox
