@@ -8,6 +8,21 @@ under the backports_ namespace.
 .. _weakref: https://docs.python.org/3.5/library/weakref.html
 .. _backports: https://pypi.python.org/pypi/backports
 
+.. image:: https://img.shields.io/pypi/v/backports.weakref.svg
+    :target: https://pypi.python.org/pypi/backports.weakref
+
+.. image:: https://img.shields.io/badge/source-GitHub-lightgrey.svg
+    :target: https://github.com/pjdelport/backports.weakref
+
+.. image:: https://img.shields.io/github/issues/pjdelport/backports.weakref.svg
+    :target: https://github.com/pjdelport/backports.weakref/issues?q=is:open
+
+.. image:: https://travis-ci.org/pjdelport/backports.weakref.svg?branch=master
+    :target: https://travis-ci.org/pjdelport/backports.weakref
+
+.. image:: https://codecov.io/github/pjdelport/backports.weakref/coverage.svg?branch=master
+    :target: https://codecov.io/github/pjdelport/backports.weakref?branch=master
+
 
 Supported Python versions
 =========================
