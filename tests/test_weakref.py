@@ -142,6 +142,7 @@ class FinalizeTestCase(unittest.TestCase):
         self.assertIsNone(wr_f())
         self.assertEqual(res, [123])
 
+    # TODO: Gather test coverage for this subprocess execution code.
     @classmethod
     def run_in_child(cls):  # pragma: no cover (executed in subprocess)
         def error():
