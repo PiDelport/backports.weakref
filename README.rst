@@ -37,3 +37,9 @@ Backported functionality
 * `weakref.finalize`_ (new in Python 3.4)
 
 .. _`weakref.finalize`: https://docs.python.org/3.5/library/weakref.html#weakref.finalize
+
+
+Contributing
+============
+
+See `<HACKING.rst>`__.
