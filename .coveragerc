@@ -1,0 +1,12 @@
+# http://coverage.readthedocs.org/en/latest/config.html
+[run]
+branch = True
+
+source =
+    src
+    tests
+
+omit =
+    # This is purely backported test support code:
+    # we don't use all its functionality.
+    tests/script_helper.py
