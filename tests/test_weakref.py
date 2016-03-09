@@ -3,7 +3,7 @@ Partial backport of Python 3.5's test.test_weakref:
 
     FinalizeTestCase
 
-Backport modifications are marked with marked with "XXX backport".
+Backport modifications are marked with "XXX backport".
 """
 from __future__ import print_function
 

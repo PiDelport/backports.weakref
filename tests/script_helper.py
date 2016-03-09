@@ -3,7 +3,7 @@ Partial backport of Python 3.5's test.support code.
 
 This should contain everything needed to run test_weakref.
 
-Backport modifications are marked with marked with "XXX backport".
+Backport modifications are marked with "XXX backport".
 """
 import collections
 import os
