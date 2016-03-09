@@ -9,7 +9,7 @@ matrix:
     - { python: 'pypy', env: TOXENV=pypy }
     - { python: 'pypy3', env: TOXENV=pypy3 }
 
-    # Report coverage for the latest Python 3 and 3 versions, and for PyPy,
+    # Report coverage for the latest Python 2 and 3 versions, and for PyPy,
     # to cover all the interesting code paths.
     - { python: '2.7', env: TOXENV=py27-codecov }
     - { python: '3.5', env: TOXENV=py35-codecov }
