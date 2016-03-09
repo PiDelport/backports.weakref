@@ -14,7 +14,7 @@ import platform
 from backports import weakref
 
 import unittest
-import script_helper
+from backports.test.support import script_helper
 
 
 # Used by FinalizeTestCase as a global that may be replaced by None
