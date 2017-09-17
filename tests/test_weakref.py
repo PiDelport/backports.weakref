@@ -1,5 +1,5 @@
 """
-Partial backport of Python 3.5's test.test_weakref:
+Partial backport of Python 3.6's test.test_weakref:
 
     FinalizeTestCase
 

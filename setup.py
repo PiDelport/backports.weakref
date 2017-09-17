@@ -6,7 +6,7 @@ setup(
     description="Backport of new features in Python's weakref module",
     url='https://github.com/pjdelport/backports.weakref',
 
-    author=u'Piët Delport',
+    author='Pi Delport',
     author_email='pjdelport@gmail.com',
 
     package_dir={'': 'src'},
@@ -25,6 +25,8 @@ setup(
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: Implementation :: PyPy',
         'Topic :: Software Development :: Libraries :: Python Modules',
     ],
 )
