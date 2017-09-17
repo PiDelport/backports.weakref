@@ -1,5 +1,5 @@
 """
-Partial backport of Python 3.5's weakref module:
+Partial backport of Python 3.6's weakref module:
 
     finalize (new in Python 3.4)
 
