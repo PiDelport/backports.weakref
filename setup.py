@@ -1,9 +1,16 @@
 # coding: utf-8
 from setuptools import setup, find_packages
 
+
+def README():
+    with open('README.rst') as f:
+        return f.read()
+
+
 setup(
     name='backports.weakref',
     description="Backport of new features in Python's weakref module",
+    long_description=README(),
     url='https://github.com/pjdelport/backports.weakref',
 
     author='Pi Delport',
