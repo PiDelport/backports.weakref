@@ -5,7 +5,7 @@ backports.weakref
 This package provides backports of new features in Python's weakref_ module
 under the backports_ namespace.
 
-.. _weakref: https://docs.python.org/3.5/library/weakref.html
+.. _weakref: https://docs.python.org/3.6/library/weakref.html
 .. _backports: https://pypi.python.org/pypi/backports
 
 .. image:: https://img.shields.io/pypi/v/backports.weakref.svg
@@ -28,7 +28,7 @@ Supported Python versions
 =========================
 
 * CPython: 2.7, 3.4, 3.5, 3.6
-* PyPy
+* PyPy, PyPy3
 
 
 Backported functionality
@@ -36,7 +36,7 @@ Backported functionality
 
 * `weakref.finalize`_ (new in Python 3.4)
 
-.. _`weakref.finalize`: https://docs.python.org/3.5/library/weakref.html#weakref.finalize
+.. _`weakref.finalize`: https://docs.python.org/3.6/library/weakref.html#weakref.finalize
 
 
 Contributing
